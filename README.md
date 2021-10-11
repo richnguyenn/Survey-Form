@@ -11,13 +11,13 @@ Click [here](https://codepen.io/richnguyen/pen/porowwK) to go to the Editor Page
 
 Features Used in this Project:
 
-Image Backgrounds and Boxes
+  * Image Backgrounds and Boxes
 
-HTML and CSS (plain css)
+  * HTML and CSS (plain css)
 
-Responsive Buttons and Boxes
+  * Responsive Buttons and Boxes
 
-Created on CodePen.io software
+  * Created on CodePen.io software
 
 A 'freeCodeCamp' Responsive Web Design Project.
 
