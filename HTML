@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Richard Nguyen" content="creator">
+    <meta name="keywords" content="HTML, CSS">
+    <title>Spotify_Survey_Form</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1 id="title">User Research/Satisfaction Survey Form</h1>
+        <img src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_CMYK_Green.png" id="image" alt="Spotify Logo">
+        <p id="description" class="description text-center">
+        Thank you for taking the time to fill out this survey!
+        </p>
+      </header>
+      <form id="survey-form">
+        <div id="section1">
+          <label id="name-label">Name</label> <br><br>
+          <input type="name" name="name" id="name" placeholder="Enter your name" class="box" required/> <br><br>
+          <label id="email-label">Email</label> <br><br>
+          <input type="email" name="email" id="email" placeholder="Enter your email" class="box" required/> <br><br>
+          <label id="number-label">Age (optional)</label> <br><br>
+          <input type="number" name="age" id="number" min="10" max="99" placeholder="Enter your age" class="box"> <br><br>
+          <label>What is your gender?</label> <br></br>
+        <div id="dropdown">
+          <select required>
+            <option name="Select Your Gender" disabled selected value>Select Your Gender</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Other">Other</option>
+            <option value="Prefer Not to Say">Prefer not to say</option>
+          </select>
+        </div>
+        <br>
+          <div id="radio">
+            <label id="radio1">How often do you use <b>Spotify</b>?</label> <br> </br>
+            <input type="radio" value="Once per day" name="radio" class="larger" checked>&nbsp&nbspOnce per day<br> </br>
+            <input type="radio" value="Multiple times a day" name="radio" class="larger">&nbsp&nbspMultiple times a day<br> </br>
+            <input type="radio" value="Around once a week" name="radio" class="larger">&nbsp&nbspAround once a week<br> </br>
+            <input type="radio" value="A few times a week" name="radio" class="larger">&nbsp&nbspA few times a week<br> </br>
+            <input type="radio" value="About once a month" name="radio" class="larger">&nbsp&nbspAbout once a month<br> </br>
+            <input type="radio" value="Not at all/rarely" name="radio" class="larger">&nbsp&nbspNot at all/rarely<br> </br>
+          </div>
+        <div id="section2">
+          <label id="plan-label">What <b>Spotify plan</b> do you use?</label> <br> </br>
+          <div id="dropdown">
+            <select required>
+              <option name="Select A Plan" disabled selected value>Select A Plan</option>
+              <option value="Free (no premium)">Free (no premium)</option>
+              <option value="Individual Premium">Individual Premium</option>
+              <option value="Duo Premium">Duo Premium</option>
+              <option value="Family Premium">Family Premium</option>
+              <option value="Student Premium">Student Premium</option>
+            </select>
+          <br></br>
+          <label id="genre-label">What genre of music do you listen to? (Check all that apply)</label>
+          <div id="checkbox" class="columns">
+            <input type="checkbox" name="checkbox" class="larger" value="Rock"><label> Rock</label><br></br>
+            <input type="checkbox" name="checkbox" class="larger" value="Pop"><label> Pop</label><br></br>
+            <input type="checkbox" name="checkbox" class="larger" value="Hip hop"><label> Hip hop</label><br></br>
+            <input type="checkbox" name="checkbox" class="larger" value="Coutnry"><label> Country</label><br></br>
+            <input type="checkbox" name="checkbox" class="larger" value="Rap"><label> Rap</label><br></br>
+            <input type="checkbox" name="checkbox" class="larger" value="Jazz"><label> Jazz</label><br></br>
+            <input type="checkbox" name="checkbox" class="larger" value="Metal"><label> Metal</label><br></br>
+            <input type="checkbox" name="checkbox" class="larger" value="Japanese"><label> Japanese</label><br></br>
+            <input type="checkbox" name="checkbox" class="larger" value="K-pop"><label> K-pop</label><br></br>
+            <input type="checkbox" name="checkbox" class="larger" value="Other"><label> Other</label><br></br>
+        </div>  
+        <label id="comment-section">Any Comments or Suggestions?</label> <br></br>
+        <textarea placeholder="Enter your comment here..."></textarea> <br>
+        <button id="submit" type="submit" formtarget="_self"><h3>Submit</h3></button>
+      </form>
+    </div>
+  </body>
+</html>
