@@ -3,9 +3,11 @@
 Spotify User Research/Satisfaction Survey Form
 A survey form created for information on Spotify users.
 
-Click here to go to the Editor Page.
+First Ever Survey Form Page.
 
-Tribute Page Link
+Click [here](https://codepen.io/richnguyen/pen/porowwK) to go to the Editor Page. 
+
+[Survey Form Link](https://codepen.io/richnguyen/full/porowwK)
 
 Features Used in this Project:
 
