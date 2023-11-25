@@ -6,6 +6,7 @@ A survey form created for information on Spotify users.
 Basic survey form page.
 
 Click [here](https://codepen.io/richnguyen/pen/porowwK) to go to the Editor Page. 
+Click [here](https://codepen.io/richnguyen/full/porowwK) for a Full Page View.
 
 [Survey Form Link](https://codepen.io/richnguyen/full/porowwK)
 
